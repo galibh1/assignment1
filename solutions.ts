@@ -3,7 +3,7 @@ function filterEvenNumbers(nums: number[]): number[] {
   return nums.filter((num) => num % 2 === 0);
 }
 
-(filterEvenNumbers([1, 2, 3, 4, 5, 6]));
+
 
 
 
