@@ -11,6 +11,7 @@ let value: any = "Hello TypeScript";
 console.log(value.toUpperCase());
 console.log(value.nonExistentMethod());
 
+
 The unknown type also accepts any value, but unlike any, it does not allow unsafe operations automatically. It must first verify the type before using it.
 
 Example of unknown:
