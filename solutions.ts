@@ -1,4 +1,4 @@
-// 1. Filter Even Numbers
+// 1. 
 function filterEvenNumbers(nums: number[]): number[] {
   return nums.filter((num) => num % 2 === 0);
 }
@@ -6,7 +6,7 @@ function filterEvenNumbers(nums: number[]): number[] {
 //console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6]));
 
 
-//2. Reverse String
+//2. 
 function reverseString(input: string): string {
   let reversed = "";
 
@@ -20,7 +20,7 @@ function reverseString(input: string): string {
 
 
 
-// 3. Union Type + Type Guard
+// 3. 
 
 type StringOrNumber = string | number;
 
@@ -34,7 +34,7 @@ function checkType(value: StringOrNumber): string {
 
 
 
-//4. Generic getProperty
+//4. 
 
 function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
   return obj[key];
@@ -44,7 +44,7 @@ const user = { id: 1, name: "John Doe", age: 21 };
 
 
 
-//5. Book Interface + toggleReadStatus
+//5. 
 interface Book {
   title: string;
   author: string;
@@ -66,7 +66,7 @@ const myBook = {
 
 
 
-//6. Class + Inheritance
+//6. 
 
 class Person {
   name: string;
@@ -95,7 +95,7 @@ const student = new Student("Alice", 20, "A");
 
 
 
-// 7.Array Intersection
+// 7.
 function getIntersection(arr1: number[], arr2: number[]): number[] {
   const set2 = new Set(arr2);
   return arr1.filter((num) => set2.has(num));
