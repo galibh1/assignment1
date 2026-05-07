@@ -3,7 +3,7 @@ function filterEvenNumbers(nums: number[]): number[] {
   return nums.filter((num) => num % 2 === 0);
 }
 
-//console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6]));
+(filterEvenNumbers([1, 2, 3, 4, 5, 6]));
 
 
 //2. 
@@ -40,7 +40,8 @@ function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
   return obj[key];
 }
 const user = { id: 1, name: "John Doe", age: 21 };
-//console.log(getProperty(user, "name"));
+
+(getProperty(user, "name"));
 
 
 
@@ -62,7 +63,7 @@ const myBook = {
   author: "Jane Doe",
   publishedYear: 2024,
 };
-//console.log(toggleReadStatus(myBook));
+(toggleReadStatus(myBook));
 
 
 
@@ -91,7 +92,8 @@ class Student extends Person {
   }
 }
 const student = new Student("Alice", 20, "A");
-//console.log(student.getDetails());
+
+(student.getDetails());
 
 
 
@@ -100,7 +102,8 @@ function getIntersection(arr1: number[], arr2: number[]): number[] {
   const set2 = new Set(arr2);
   return arr1.filter((num) => set2.has(num));
 }
-//console.log(getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]));
+
+(getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]));
 
 
 
