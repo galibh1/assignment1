@@ -5,8 +5,8 @@ One of the biggest strengths of TypeScript is its ability to catch errors before
 any keyword bypasses this protection this why it is safety hole. any removes nearly benifits of typescript, it no autocomplete reliability, no compile time safety, and incresed 
 The unknown type is the safer alternative to any. It can store any value, but TypeScript does not allow unsafe operations until the type is verified.
 Examples of Any:
-let value: any = "Hello TypeScript";
 
+let value: any = "Hello TypeScript";
 console.log(value.toUpperCase());
 console.log(value.nonExistentMethod());
 
