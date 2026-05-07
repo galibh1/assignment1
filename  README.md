@@ -66,39 +66,7 @@ Topics covered:
 
 ---
 
-# Technologies Used
 
-- TypeScript
-- Object-Oriented Programming (OOP)
-- Markdown
-
----
-
-# How to Run the TypeScript File
-
-## Compile TypeScript
-
-```bash
-tsc solutions.ts
-```
-
-## Run JavaScript File
-
-```bash
-node solutions.js
-```
-
----
-
-# Assignment Requirements Followed
-
-- All coding solutions are placed in a single `solutions.ts` file
-- Exact function names are used
-- Clean and readable code structure maintained
-- Separate Markdown files used for each blog
-- Proper Markdown formatting and code blocks included
-
----
 
 # Author
 
