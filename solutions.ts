@@ -40,9 +40,7 @@ function checkType(value: StringOrNumber): string {
 function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
   return obj[key];
 }
-const user = { id: 1, name: "John Doe", age: 21 };
 
-(getProperty(user, "name"));
 
 
 
@@ -59,12 +57,7 @@ function toggleReadStatus(book: Book): Book & { isRead: boolean } {
     isRead: true,
   };
 }
-const myBook = {
-  title: "TypeScript Guide",
-  author: "Jane Doe",
-  publishedYear: 2024,
-};
-(toggleReadStatus(myBook));
+
 
 
 
@@ -92,9 +85,7 @@ class Student extends Person {
     return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
   }
 }
-const student = new Student("Alice", 20, "A");
 
-(student.getDetails());
 
 
 
@@ -104,7 +95,7 @@ function getIntersection(arr1: number[], arr2: number[]): number[] {
   return arr1.filter((num) => set2.has(num));
 }
 
-(getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]));
+
 
 
 
